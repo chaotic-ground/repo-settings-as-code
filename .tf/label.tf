@@ -9,7 +9,6 @@ locals {
   }
 }
 
-
 import {
   id = "repo-settings-as-code:dependencies"
   to = github_issue_label.dependabot["dependencies"]
